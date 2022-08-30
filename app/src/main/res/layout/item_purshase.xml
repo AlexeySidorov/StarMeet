@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/event_purchase_block"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/event_date_block"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/title_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/purchase_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".98"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            tools:ignore="NestedWeights" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/purchase_info"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_weight=".02"
+            android:src="@drawable/group762" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/title_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/title_purchase"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/small_title_color" />
+
+    <LinearLayout
+        android:id="@+id/purchase_price_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_line"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/currency_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".01"
+            android:text="@string/inr"
+            android:textAlignment="textStart"
+            android:textColor="@color/price"
+            android:textSize="24sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/currency_value1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight=".49"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textAlignment="center"
+            android:textColor="@color/price"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/currency_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight=".01"
+            android:text="@string/usd"
+            android:textAlignment="textEnd"
+            android:textColor="@color/price"
+            android:textSize="24sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/currency_value2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight=".49"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textAlignment="center"
+            android:textColor="@color/price"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ticketCount"
+        layout="@layout/item_purchase_count_tickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/purchase_price_block"
+        android:layout_marginTop="6dp"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/purchase_currency_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ticketCount"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/currency_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_weight=".2"
+            android:text="@string/currency"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
+
+        <LinearLayout
+            android:id="@+id/select_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".4"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/currency_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="NestedWeights" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/arrow_down"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".5"
+                android:src="@drawable/arrow_black" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight=".4"
+            android:background="@drawable/button_main_style"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/buy_now"
+            android:textAppearance="?android:textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</RelativeLayout>

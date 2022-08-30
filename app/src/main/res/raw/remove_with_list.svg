@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #e2574c;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-5 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: #e2574c;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_2_9" data-name="Symbol 2 – 9" transform="translate(-110.521 -384.691)">
+    <g id="btn" transform="translate(110.521 384.691)">
+      <g id="Rectangle_2" data-name="Rectangle 2" class="cls-1">
+        <rect class="cls-3" width="24" height="24" rx="12"/>
+        <rect class="cls-4" x="0.5" y="0.5" width="23" height="23" rx="11.5"/>
+      </g>
+    </g>
+    <g id="Path_786" data-name="Path 786" class="cls-2" transform="translate(117.079 396.691)">
+      <path class="cls-3" d="M0,0H11V1H0Z"/>
+      <path class="cls-5" d="M 11 1 L -8.881784197001252e-16 1 L -8.881784197001252e-16 0 L 11 0 L 11 1 Z"/>
+    </g>
+  </g>
+</svg>

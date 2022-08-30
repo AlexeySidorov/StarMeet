@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatar_another_user"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/nick_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatar_another_user"
+            android:text="Ник пользователя"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="21sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/title_screen_reconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatar_another_user"
+            android:text="@string/you_ended_the_call"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:layout_marginTop="61dp"
+            android:layout_marginBottom="45dp"
+            android:textSize="21sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/reconnect"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_screen_reconnect"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_main_style"
+            android:padding="6dp"
+            android:text="@string/try_to_reconnectt"
+            android:textAppearance="?android:textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</RelativeLayout>

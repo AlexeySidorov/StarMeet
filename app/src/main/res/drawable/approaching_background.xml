@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="345dp"
+    android:height="188dp"
+    android:viewportWidth="345"
+    android:viewportHeight="188">
+
+    <group
+        android:translateX="-15"
+        android:translateY="-212">
+        <group
+            android:translateY="-15">
+            <group
+                android:translateY="42">
+                <group>
+                    <path
+                        android:fillColor="#141a48"
+                        android:pathData="M 0 0 H 345 V 192 H 0 V 0 Z" />
+                    <path
+                        android:fillColor="#0d236a"
+                        android:fillAlpha="0.275"
+                        android:strokeAlpha="0.275"
+                        android:strokeWidth="1"
+                        android:pathData="M622.526,3.378,153.3,0C67.634,0,0,67.634,0,153.3V890.515C63.008,861.318,622.526,3.378,622.526,3.378Z" />
+                    <path
+                        android:fillColor="#14356a"
+                        android:fillAlpha="0.314"
+                        android:strokeAlpha="0.314"
+                        android:strokeWidth="1"
+                        android:pathData="M260.085,505.37C67.634,0,0,67.634,0,153.3V890.515C0,973.93,343.5,505.37,260.085,505.37Z" />
+                    <path
+                        android:fillColor="#0d1f6c"
+                        android:fillAlpha="0.516"
+                        android:strokeAlpha="0.516"
+                        android:strokeWidth="1"
+                        android:pathData="M190.868,251.129C105.2,251.129,0,67.634,0,153.3V890.515C3.876,908.03,153.759,689.03,190.868,251.129Z" />
+                    <path
+                        android:fillColor="#0e2a6a"
+                        android:fillAlpha="0.238"
+                        android:strokeAlpha="0.238"
+                        android:strokeWidth="1"
+                        android:pathData="M153.3,0C67.634,0,0,67.634,0,153.3V890.515Z" />
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

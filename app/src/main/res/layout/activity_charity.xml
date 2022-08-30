@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="16dp">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/img"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:padding="6dp" />
+
+            <View
+                android:id="@+id/img_bottom_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/img"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/small_title_color" />
+
+            <WebView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_bottom_line"
+                android:layout_marginTop="30dp"
+                android:background="@color/transparent"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/web_button"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_below="@id/description"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_main_style"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:textAppearance="?android:textAppearanceMediumInverse"
+                android:textColor="#ffffff" />
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

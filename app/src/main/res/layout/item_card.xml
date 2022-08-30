@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/event_purchase_block"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/event_date_block"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/title_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/icon_card"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight=".06" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/number_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight=".80"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            tools:ignore="NestedWeights" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/edit_card"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight=".02"
+            android:src="@drawable/group436" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/remove_card"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight=".02"
+            android:src="@drawable/group437" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

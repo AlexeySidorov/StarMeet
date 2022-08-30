@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 345 188">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0d1a6b;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #141a48;
+      }
+
+      .cls-4 {
+        fill: #0d236a;
+        opacity: 0.275;
+      }
+
+      .cls-5 {
+        fill: #14356a;
+        opacity: 0.314;
+      }
+
+      .cls-6 {
+        fill: #0d1f6c;
+        opacity: 0.516;
+      }
+
+      .cls-7 {
+        fill: #0e2a6a;
+        opacity: 0.238;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_77" data-name="Rectangle 77" class="cls-1" width="345" height="188" transform="translate(15 185)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_764" data-name="Group 764" transform="translate(-15 -212)">
+    <g id="bg" transform="translate(0 -15)">
+      <g id="Group_745" data-name="Group 745" transform="translate(0 42)">
+        <g id="Mask_Group_6" data-name="Mask Group 6" class="cls-2">
+          <rect id="Rectangle_153" data-name="Rectangle 153" class="cls-3" width="345" height="192" transform="translate(15 185)"/>
+          <path id="Path_1249" data-name="Path 1249" class="cls-4" d="M622.526,3.378,153.3,0C67.634,0,0,67.634,0,153.3V890.515C63.008,861.318,622.526,3.378,622.526,3.378Z" transform="translate(0.357 -33.456) rotate(-16)"/>
+          <path id="Path_1250" data-name="Path 1250" class="cls-5" d="M260.085,505.37C67.634,0,0,67.634,0,153.3V890.515C0,973.93,343.5,505.37,260.085,505.37Z" transform="matrix(0.848, 0.53, -0.53, 0.848, 371.401, -46.651)"/>
+          <path id="Path_1251" data-name="Path 1251" class="cls-6" d="M190.868,251.129C105.2,251.129,0,67.634,0,153.3V890.515C3.876,908.03,153.759,689.03,190.868,251.129Z" transform="translate(593.609 8.525) rotate(51)"/>
+          <path id="Path_1252" data-name="Path 1252" class="cls-7" d="M153.3,0C67.634,0,0,67.634,0,153.3V890.515Z" transform="matrix(0.809, -0.588, 0.588, 0.809, -166.34, 19.592)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

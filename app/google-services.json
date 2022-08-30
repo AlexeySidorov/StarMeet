@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "757251946020",
+    "firebase_url": "https://starmeet-6eeeb.firebaseio.com",
+    "project_id": "starmeet-6eeeb",
+    "storage_bucket": "starmeet-6eeeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757251946020:android:682c47e68029ce12",
+        "android_client_info": {
+          "package_name": "starmeet.convergentmobile.com.starmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757251946020-ia9h35bcur97gfn40b70ur26jna9qdit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "starmeet.convergentmobile.com.starmeet",
+            "certificate_hash": "d4fd00d2c3084f19f535b127e08071b497ce2716"
+          }
+        },
+        {
+          "client_id": "757251946020-3p09giod3rgk8fiob5vgvvtknv35vh69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "starmeet.convergentmobile.com.starmeet",
+            "certificate_hash": "086a9269e68df8634592f7668559713324f22aa7"
+          }
+        },
+        {
+          "client_id": "757251946020-713oce1ekdr2hpf1ak9keko6mvj0mqt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChoKdHFBf8O0x70dkcuRDNW2vf2K9nhJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757251946020-713oce1ekdr2hpf1ak9keko6mvj0mqt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
